@@ -1,0 +1,52 @@
+:root {
+    --color1: #316288;
+    --color2: #0D1C23;
+    --color3: #88BCD2;
+    --color4: #030C10;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.contenedor{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.contenedor div{
+    background-color: var(--color2);
+    width: 120px;
+    height: 130px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--color1);
+}
+
+.contenedor2{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contenedor2 div{
+    background-color: var(--color3);
+    width: 80px;
+    height: 70px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--color1);
+}
+
+
