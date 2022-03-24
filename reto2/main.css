@@ -2,36 +2,89 @@
     --color1: black;
     --color2: white;
     --color3: #88BCD2;
-    --color4: #030C10;
+    --color4: #687479;
+}
+li {
+    list-style: none;
+    background-color: var(--color1);
+}
+a {
+    text-decoration: none;
+}
+i {
+    text-decoration: none;
+    color: var(--color2);
+    padding: 10px;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid #ddd;
+    
+    
+    /* border: 1px solid #ddd;*/
 }
+
+ .menu fa-solid fa-lis{
+    color: var(--color2);
+    background-color: var(--color1);
+    padding: 10px;
+ }      
 
 .contenedor {
     display: flex;
-    flex-direction: column;
-    padding: 40px;
+    justify-content: center;
     text-align: center;
     color: var(--color2);
     background-color: var(--color1);
+    
 }
-.contenedor boton{
-    margin: 40px;
-    padding: 40px;
+
+button {
+    margin: 20px;
+    border: 0;
+    /* redondeado del borde */
+    border-radius: 20px;
+    padding: 10px 25px;
+    color: white;
+    background-color: var(--color4);
+    
+}
+button:hover {
+    background-color: var(--color2);
+    /* font.weight: grosor de la fuente */
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--color1);
 }
 
 .contenedor2 {
+    
     display: flex;
-    flex-direction:row;
-    padding: 40px;
+    justify-content:center;
     text-align: center;
+    padding: 20px; 
+    
+
 }
 
 img{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
 }
+
+
+.tarjeta {
+    width: 20%;
+    border: 1px solid #ddd;
+    margin: 20px;
+    padding: 50px;
+    
+       
+}
+
+.tarjeta p {
+    margin-top: 20px;
+     
+}
+
